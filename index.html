@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergei Orlov - Android Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">S.Orlov</div>
+        <div class="controls">
+            <button id="lang-toggle" class="btn-icon">ES</button>
+            <button id="theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero fade-in">
+            <div class="hero-content">
+                <div class="photo-container">
+                    <img src="images/photo.jpg" alt="Sergei Orlov" class="profile-photo">
+                </div>
+                <h1 data-i18n="hero_title">Hi, I'm Sergei Orlov</h1>
+                <h2 data-i18n="hero_subtitle">Android & Indie Developer</h2>
+                <p data-i18n="hero_desc">Building polished mobile experiences in Argentina.</p>
+                <div class="social-links">
+                    <a href="mailto:orlovsergeywork@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sorlov-dev" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://t.me/" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section fade-in">
+            <h3 class="section-title" data-i18n="nav_about">About Me</h3>
+            <div class="card">
+                <p data-i18n="about_text">
+                    I am a product-minded Android engineer with 7 years of experience. I specialize in owning architecture performance and shipping polished UX at scale. Currently based in Buenos Aires, Argentina. I combine technical expertise with a passion for creating independent applications.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section fade-in">
+            <h3 class="section-title" data-i18n="nav_skills">Skills</h3>
+            
+            <div class="skills-container">
+                <div class="skill-group">
+                    <h4 data-i18n="hard_skills">Hard Skills</h4>
+                    <div class="tags">
+                        <span>Kotlin</span>
+                        <span>Java</span>
+                        <span>Android SDK</span>
+                        <span>Jetpack Compose</span>
+                        <span>Clean Architecture</span>
+                        <span>MVVM/MVI</span>
+                        <span>Coroutines/Flow</span>
+                        <span>Dagger/Hilt</span>
+                        <span>Room</span>
+                        <span>Firebase</span>
+                        <span>CI/CD & Gradle</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h4 data-i18n="soft_skills">Soft Skills</h4>
+                    <div class="tags">
+                        <span data-i18n="soft_product">Product Mindset</span>
+                        <span data-i18n="soft_ux">UX/UI Focus</span>
+                        <span data-i18n="soft_e2e">End-to-End Delivery</span>
+                        <span data-i18n="soft_mentoring">Code Review & Quality</span>
+                        <span data-i18n="soft_arch">System Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section fade-in">
+            <h3 class="section-title" data-i18n="nav_projects">My Projects</h3>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h4 class="project-title">BookLover</h4>
+                        <span class="status-badge" data-i18n="status_completed">Completed</span>
+                    </div>
+                    <p class="project-desc" data-i18n="booklover_desc">
+                        A reading tracker application. Users can set reading goals, track progress, and save interesting notes or quotes directly from the books they read.
+                    </p>
+                    <div class="project-tech">
+                        <span>Kotlin</span>
+                        <span>Room</span>
+                        <span>MVVM</span>
+                    </div>
+                </div>
+
+                <a href="https://github.com/sorlov-dev" target="_blank" class="project-card link-card">
+                    <div class="project-header">
+                        <h4 class="project-title">ActiveTrend</h4>
+                        <i class="fas fa-external-link-alt icon-link"></i>
+                    </div>
+                    <p class="project-desc" data-i18n="activetrend_desc">
+                        An intuitive app to track nutrition and activity effortlessly without the tedious need to count calories. Focuses on healthy habits over numbers.
+                    </p>
+                    <div class="project-tech">
+                        <span>Jetpack Compose</span>
+                        <span>Flow</span>
+                        <span>Hilt</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Sergei Orlov. <span data-i18n="footer_rights">All rights reserved.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
